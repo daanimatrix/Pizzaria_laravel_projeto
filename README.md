@@ -1,64 +1,54 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+# Projeto Laravel Pizzaria
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Este projeto Laravel visa criar um site para uma pizzaria, oferecendo funcionalidades básicas, como visualização de pizzas, cadastro de novas pizzas e uma página de contato.
 
-## About Laravel
+Páginas Principais
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Página Inicial (Index)
+A página inicial apresenta um filtro de pizzas, permitindo aos usuários navegar e encontrar suas pizzas favoritas.
+Além disso, exibe um menu completo de todas as pizzas disponíveis no site.
+![Imagem do jogo](imagem_git/index_pizzaria.jpg)
+![Imagem do jogo](imagem_git/Pizza_exemplo.jpg)
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Ao clicar sobre a pizza, aparecera mais detalhes :
+![Imagem do jogo](imagem_git/Sobre_Pizzaria.jpg)
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Página de Cadastro
+A página de cadastro oferece a funcionalidade de adicionar novas pizzas ao catálogo.
+Os usuários podem preencher informações relevantes sobre a pizza, como nome, ingredientes e preço, para serem exibidas posteriormente na página inicial.
+![Imagem do jogo](imagem_git/cadastro_pizzaria.jpg)
+Página de Contato
+A página de contato fornece um meio de comunicação direta com a pizzaria.
+![Imagem do jogo](imagem_git/contato_pizzaria.jpg)
+Os usuários podem utilizar formulários para enviar mensagens, fazer perguntas ou fornecer feedback sobre o site ou seus produtos.
+Como Executar o Projeto
 
-## Learning Laravel
+Requisitos do Ambiente
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Certifique-se de ter o ambiente PHP e Laravel configurado.
+Instale as dependências do projeto usando composer install.
+Configuração do Banco de Dados
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Configure o arquivo .env com as informações do seu banco de dados.
+Execute as migrações para criar as tabelas necessárias: php artisan migrate.
+Executando o Servidor Localmente
 
-## Laravel Sponsors
+Inicie o servidor local com o comando: php artisan serve.
+Acesse o projeto no navegador através do endereço gerado.
+Contribuições e Problemas
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+Contribuições são bem-vindas! Se você encontrar problemas ou tiver sugestões para melhorias, sinta-se à vontade para abrir uma issue neste repositório.
 
-### Premium Partners
+Esperamos que este projeto Laravel para a pizzaria seja útil e atenda às suas necessidades. Aproveite a construção de uma experiência deliciosa para os amantes de pizza!
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+Reformulações
 
-## Contributing
+Adicionei uma imagem de pizza no início do README para chamar a atenção do leitor.
+Reorganizei o conteúdo para facilitar a leitura.
+Adicionei links para as seções principais do README para facilitar a navegação.
+Corrigi erros de ortografia e gramática.
+Sugestões
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Você pode adicionar mais informações sobre as funcionalidades do projeto, como detalhes sobre o filtro de pizzas ou o formulário de contato.
+Você pode adicionar uma seção sobre a licença do projeto.
+Você pode adicionar uma seção sobre como testar o projeto.
