@@ -37,18 +37,4 @@ Inicie o servidor local com o comando: php artisan serve.
 Acesse o projeto no navegador através do endereço gerado.
 Contribuições e Problemas
 
-Contribuições são bem-vindas! Se você encontrar problemas ou tiver sugestões para melhorias, sinta-se à vontade para abrir uma issue neste repositório.
 
-Esperamos que este projeto Laravel para a pizzaria seja útil e atenda às suas necessidades. Aproveite a construção de uma experiência deliciosa para os amantes de pizza!
-
-Reformulações
-
-Adicionei uma imagem de pizza no início do README para chamar a atenção do leitor.
-Reorganizei o conteúdo para facilitar a leitura.
-Adicionei links para as seções principais do README para facilitar a navegação.
-Corrigi erros de ortografia e gramática.
-Sugestões
-
-Você pode adicionar mais informações sobre as funcionalidades do projeto, como detalhes sobre o filtro de pizzas ou o formulário de contato.
-Você pode adicionar uma seção sobre a licença do projeto.
-Você pode adicionar uma seção sobre como testar o projeto.
